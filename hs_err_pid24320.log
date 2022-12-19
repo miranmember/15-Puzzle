@@ -1,0 +1,45 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007f64e72f2f0a, pid=24320, tid=24410
+#
+# JRE version: OpenJDK Runtime Environment (11.0.17+8) (build 11.0.17+8-post-Ubuntu-1ubuntu222.04)
+# Java VM: OpenJDK 64-Bit Server VM (11.0.17+8-post-Ubuntu-1ubuntu222.04, mixed mode, sharing, tiered, compressed oops, g1 gc, linux-amd64)
+# Problematic frame:
+# C  [libnvwgf2umx.so+0x286bf0a]
+#
+# No core dump will be written. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# If you would like to submit a bug report, please visit:
+#   https://bugs.launchpad.net/ubuntu/+source/openjdk-lts
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Dclassworlds.conf=/usr/share/maven/bin/m2.conf -Dmaven.home=/usr/share/maven -Dlibrary.jansi.path=/usr/share/maven/lib/jansi-native -Dmaven.multiModuleProjectDirectory=/mnt/c/Users/Miran Member/Desktop/CS TEMP/Projects/Project4Puzzle/sp2021Project4_15Puzzle org.codehaus.plexus.classworlds.launcher.Launcher exec:java
+
+Host: AMD Ryzen 5 5600 6-Core Processor, 12 cores, 11G, Ubuntu 22.04.1 LTS
+Time: Sun Dec 18 20:32:20 2022 CST elapsed time: 19.395404 seconds (0d 0h 0m 19s)
+
+---------------  T H R E A D  ---------------
+
+Current thread is native thread
+
+Stack: [0x00007f64e4288000,0x00007f64e4a87000],  sp=0x00007f64e4a85d90,  free space=8183k
+Native frames: (J=compiled Java code, A=aot compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [libnvwgf2umx.so+0x286bf0a]
+
+[error occurred during error reporting (printing native stack), id 0xb, SIGSEGV (0xb) at pc=0x00007f658cd14a17]
+
+
+siginfo: si_signo: 11 (SIGSEGV), si_code: 1 (SEGV_MAPERR), si_addr: 0x00007f6518134000
+
+Register to memory mapping:
+
+RAX=
+[error occurred during error reporting (printing register info), id 0xb, SIGSEGV (0xb) at pc=0x00007f658cf6e4fc]
+
+Registers:
+RAX=0x0000000000000016, RBX=0x0000000000000000, RCX=0x00007f64e4a85d98, RDX=0x0000000000000000
+RSP=0x00007f64e4a85d90, RBP=0x0000000000000000, RSI=0x00007f64f41e91f0, RDI=0x00007f64f416c080
+R8 =0x00007f64e0000b70, R9 =0x00007ffd2c1b0080, R10=0x00000000000aeb50, R11=0x42ad1f60a1450467
