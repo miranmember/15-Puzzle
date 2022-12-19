@@ -28,3 +28,7 @@ The game board is represented using a 2D array of Button objects. The blank spac
 Two different algorithms are implemented for solving the puzzle: breadth-first search and A* search with the Manhattan distance heuristic. The breadth-first search algorithm is implemented using a queue, while the A* search algorithm is implemented using a priority queue. The solution for each algorithm is stored in an ArrayList of Node objects, where each Node represents a state of the puzzle and the list is used to step through the solution or solve the puzzle automatically. Thank you Dr.Mark Hallenbeck for providing the Algorithms for this project.
 
 The game is implemented using JavaFX and the user interface is created using a combination of BorderPane, GridPane, MenuBar, and VBox layouts. Event handlers are used to handle user input and update the game state. A HashMap is used to store the different scenes and switch between them as needed.
+
+
+# Example
+![Example 1](https://user-images.githubusercontent.com/103700248/208361156-cdbf9aa3-ab7c-45f9-a053-7436499a6caa.png)
