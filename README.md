@@ -30,5 +30,7 @@ Two different algorithms are implemented for solving the puzzle: breadth-first s
 The game is implemented using JavaFX and the user interface is created using a combination of BorderPane, GridPane, MenuBar, and VBox layouts. Event handlers are used to handle user input and update the game state. A HashMap is used to store the different scenes and switch between them as needed.
 
 
-# Example
+# Screenshots
 ![Example 1](https://user-images.githubusercontent.com/103700248/208361156-cdbf9aa3-ab7c-45f9-a053-7436499a6caa.png)
+![Example 2](https://user-images.githubusercontent.com/103700248/208361422-90115224-5f61-4a6a-b5ac-34ecaaae71f7.png)
+
